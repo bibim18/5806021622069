@@ -64,7 +64,6 @@ class ViewController: UIViewController {
                             self.gini.append(data.gini!)
                             self.name.append(data.alpha3Code!)
                     }
-
                 }
 
             } catch let jsonErr {
